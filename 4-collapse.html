@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Loading...</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <p><a href="#collapseContainer1"
+          aria-expanded="false" 
+          aria-controls="collapseContainer1" 
+          data-bs-toggle="collapse">Link with href</a></p>
+
+    <button 
+        class="btn btn-primary" 
+        type="button" 
+
+        aria-expanded="false" 
+        aria-controls="collapseContainer2"
+
+        data-bs-toggle="collapse" 
+        data-bs-target="#collapseContainer2" >
+        Button with data-bs-target
+    </button>
+    
+    <div class="collapse" id="collapseContainer1">
+        <p>Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.</p>
+    </div>
+
+    <div class="collapse" id="collapseContainer2">
+        <p>Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

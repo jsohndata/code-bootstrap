@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Loading...</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <!-- !! class accordion-flush adds and remove some style-->
+                <div class="accordion "
+                     id="accordionContainer">
+                    <!-- accordion-item 1 -->
+                    <div class="accordion-item">
+                        <!-- accordion-item 1 > header -->
+                        <h2 class="accordion-header" 
+                            id="accordion-header-1">
+                            <!-- !! class SHOW (1/2) aria-expanded BOOLEAN -->
+                            <button 
+                                class="accordion-button collapsed" 
+                                type="button"
+
+                                aria-expanded="false" 
+                                aria-controls="accordion-body-1"
+
+                                data-bs-toggle="collapse"
+                                data-bs-target="#accordion-body-1">
+                                header 1
+                            </button>
+                        </h2>
+                        
+                        <!-- !! class SHOW (2/2) toggle display -->
+                        <div class="accordion-collapse collapse" 
+                             id="accordion-body-1"
+                             aria-labelledby="accordion-header-1"
+                             data-bs-parent="#accordionContainer">
+                            <!-- accordion-item 1 > body -->
+                            <div class="accordion-body">
+                                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                              </div>
+                        </div>
+                    </div>
+                    <!-- /accordion-item -->
+
+
+
+                    <!-- accordion-item 2 -->
+                    <div class="accordion-item">
+                        <!-- accordion-item 2 > header -->
+                        <h2 class="accordion-header" 
+                            id="accordion-header-2">
+                            <!-- !! class collapsed: toggles color -->
+                            <button 
+                                class="accordion-button" 
+                                type="button"
+
+                                aria-expanded="true" 
+                                aria-controls="accordion-body-2"
+
+                                data-bs-toggle="collapse"
+                                data-bs-target="#accordion-body-2">
+                                header 2
+                            </button>
+                        </h2>
+                        <!-- !! data-bs-parent true => accordion / false => collapse -->
+                        <div class="accordion-collapse collapse show" 
+                             id="accordion-body-2"
+                             aria-labelledby="accordion-header-2"
+                             data-bs-parent="#accordionContainer">
+                            <!-- accordion-item 2 > body -->
+                            <div class="accordion-body">
+                                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                              </div>
+                        </div>
+                    </div>
+                    <!-- /accordion-item -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

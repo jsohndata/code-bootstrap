@@ -1,0 +1,80 @@
+/* Font Attributes */
+/* ********************************************************************************  */
+.yellow { background: #ffff00;}
+
+
+h1 { 
+	font-size: 2.9rem;
+	letter-spacing: -1px;
+	line-height: 1.3em;
+	font-weight: 900;
+	text-transform: capitalize;
+}
+
+h2 { 
+	font-size: 1.7rem;
+	line-height: 1.3em;
+	text-transform: normal;
+    font-weight: 800;
+}
+
+h3 { 
+	font-size: 1.1rem, 3vw, 1.3rem;
+	line-height: 1.3em;
+	font-weight: 700;
+}
+
+p, li { 
+	font-size:  1.2rem;
+	line-height: 1.em ;
+	font-weight: 500;
+}
+
+article p { 
+	font-size:  1.15rem;
+	line-height: 1.5em ;
+}
+
+small {
+	font-size: 1.0rem;
+    letter-spacing: -0.01em;
+}
+
+footer p { 
+ 	font-size: 0.8rem;
+ 	text-align: center;
+}
+
+em { font-weight: none; }
+
+
+
+/* Bootstrap5 Override -- Tooltip */
+/* ********************************************************************************  */
+/* .tooltip-inner {
+    background-color: #f16322;
+    box-shadow: 0px 0px 8px #333333;
+    color: #ffffff;
+  }
+
+.tooltip.bs-tooltip-top     .tooltip-arrow::before { border-top-color:    #f16322; }
+.tooltip.bs-tooltip-bottom  .tooltip-arrow::before { border-bottom-color: #f16322; }
+.tooltip.bs-tooltip-start   .tooltip-arrow::before { border-left-color:   #f16322; }
+.tooltip.bs-tooltip-end     .tooltip-arrow::before { border-right-color:  #f16322; } */
+
+
+
+/* Bootstrap5 Override -- Modal */
+/* ********************************************************************************  */
+/* .modal { background-color: hsla(0, 0%, 0%, 0.75) !important; }
+
+.modal-body { 
+  background-color: hsl(213, 31%, 31%);
+  -webkit-box-shadow: 1px 1px 13px 10px #222222; 
+  box-shadow: 1px 1px 13px 10px #222222; }
+
+.modal-header,
+.modal-content,
+.modal-footer { 
+  background-color: transparent;
+  border: 0; } */
